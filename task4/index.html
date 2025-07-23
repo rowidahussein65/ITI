@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeCraft - Mastering HTML</title>
+  </head>
+  <body>
+    <header>
+      <h1>CodeCraft</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Courses</a>
+        <a href="#">Community</a>
+        <a href="#">Resources</a>
+      </nav>
+      <button>Get Started</button>
+    </header>
+
+    <main>
+      <h2>Mastering HTML: A Comprehensive Guide</h2>
+      <p>
+        HTML, the backbone of web development, structures content for browsers.
+        This guide covers essential elements, attributes, and best practices for
+        creating accessible and semantic web pages.
+      </p>
+
+      <section>
+        <h3>Semantic Structure</h3>
+        <p>
+          Use semantic tags like <code>&lt;header&gt;</code>,
+          <code>&lt;article&gt;</code>, <code>&lt;aside&gt;</code>, and
+          <code>&lt;footer&gt;</code>
+          to define content sections clearly. This improves SEO and
+          accessibility by giving meaning to the structure of your content.
+        </p>
+      </section>
+
+      <section>
+        <h3>Multimedia Elements</h3>
+        <p>
+          Embed videos and audio using <code>&lt;video&gt;</code> and
+          <code>&lt;audio&gt;</code> tags. Control playback with attributes like
+          <code>controls</code>, <code>autoplay</code>, and <code>loop</code> to
+          create a rich media experience for your users.
+        </p>
+        <video
+          src="https://youtu.be/5kfNL7zr8XQ?si=-WgTmnCMcPGH8phf&t=225"
+          controls
+          width="600"
+        ></video>
+        <p><em>Example of an embedded video player.</em></p>
+      </section>
+
+      <section>
+        <h3>Interactive Details</h3>
+        <p>
+          The <code>&lt;details&gt;</code> tag creates expandable sections,
+          revealing content on user interaction. Use the
+          <code>&lt;summary&gt;</code>
+          tag to provide a visible heading for the section. This is great for
+          FAQs or hiding supplementary information.
+        </p>
+        <details>
+          <summary>HTML5 New Features</summary>
+          <p>
+            HTML5 introduced new semantic elements like
+            <code>&lt;article&gt;</code>, <code>&lt;aside&gt;</code>,
+            <code>&lt;nav&gt;</code>, and <code>&lt;section&gt;</code>,
+            enhancing document structure and readability. It also brought native
+            support for audio and video, Canvas for drawing, and much more.
+          </p>
+        </details>
+      </section>
+
+      <section>
+        <h3>Embedded Content</h3>
+        <p>
+          Embed external content with an <code>&lt;iframe&gt;</code>. This is
+          commonly used for things like embedding maps, social media posts, or
+          content from other websites. Be mindful of the security implications
+          and performance impact.
+        </p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13818.893544709194!2d31.182491950000003!3d30.016098099999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145845537644c7a3%3A0x71490f98d7dd3ee1!2z2YLYp9i52Kkg2KfZhNiz2LHYp9mK2KcgMg!5e0!3m2!1sar!2seg!4v1752664327543!5m2!1sar!2seg"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <p><em>An example of an embedded map using an iframe.</em></p>
+      </section>
+
+      <section>
+        <h3>Figures and Captions</h3>
+        <p>
+          Use the <code>&lt;figure&gt;</code> element to encapsulate media
+          content like images, diagrams, or code snippets, and pair it with a
+          <code>&lt;figcaption&gt;</code> to provide a descriptive caption. This
+          semantically associates the content with its description.
+        </p>
+        <figure>
+          <img src="logo1.png" alt="HTML5 logo" width="400" />
+          <figcaption>The official HTML5 logo.</figcaption>
+        </figure>
+      </section>
+    </main>
+
+    <footer>
+      <nav>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a><br />
+        <a href="#">Twitter</a>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+      </nav>
+      <p>&copy; 2024 CodeCraft. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
