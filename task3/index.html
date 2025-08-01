@@ -3,50 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>task3</title>
+    <title>Course Registration</title>
   </head>
   <body>
-    <h1>Couese Registration</h1>
+    <h1>Course Registration</h1>
+
     <nav>
       <a href="#">Home</a>
       <a href="#">Courses</a>
       <a href="#">About</a>
       <a href="#">Login</a>
     </nav>
+
     <h2>Create Your Account</h2>
-    <p>fill out the form to ge start</p>
+    <p>Fill out the form to get started</p>
+
     <form action="">
-      <label>Full Name: </label>
-      <input type="text" placeholder="enter your name" />
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" placeholder="Enter your name" />
       <br />
-      <label>ُEmail: </label>
-      <input type="email" placeholder="enter your mail" />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" />
       <br />
-      <label>password</label>
-      <input type="email" placeholder="enter your password" />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter your password" />
       <br />
-      <label>confirm password</label>
-      <input type="email" placeholder="confirm your password" />
+
+      <label for="confirmPassword">Confirm Password:</label>
+      <input
+        type="password"
+        id="confirmPassword"
+        placeholder="Confirm your password"
+      />
       <br />
-      <label>select course</label>
-      <select>
-        <option disabled>choose a courses</option>
-        <option>frontend</option>
-        <option>backend</option>
-        <option>full stack</option>
-        <option>mobile application</option>
+
+      <label for="course">Select Course:</label>
+      <select id="course" title="Select a course">
+        <option disabled selected>Choose a course</option>
+        <option>Frontend</option>
+        <option>Backend</option>
+        <option>Full Stack</option>
+        <option>Mobile Application</option>
       </select>
       <br />
-      <label>select level</label>
-      <select>
-        <option disabled>choose a level</option>
-        <option>level1</option>
-        <option>level2</option>
-        <option>level3</option>
-        <option>level4s</option>
+
+      <label for="level">Select Level:</label>
+      <select id="level" title="Select a level">
+        <option disabled selected>Choose a level</option>
+        <option>Level 1</option>
+        <option>Level 2</option>
+        <option>Level 3</option>
+        <option>Level 4</option>
       </select>
       <br />
-      <label>Date of Birth <input type="date" /> </label><br />
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" />
+      <br />
 
       <fieldset>
         <legend>Gender</legend>
@@ -54,8 +69,8 @@
         <label><input type="radio" name="gender" /> Female</label><br />
         <label><input type="radio" name="gender" /> Other</label>
       </fieldset>
-      <h3>Pricing Plans</h3>
 
+      <h3>Pricing Plans</h3>
       <table border="1">
         <caption>
           Pricing Plans
@@ -84,8 +99,9 @@
 
       <label>
         <input type="checkbox" />
-        I agree to the <a href="#">terms and conditions</a> </label
-      ><br /><br />
+        I agree to the <a href="#">terms and conditions</a>
+      </label>
+      <br /><br />
 
       <button type="submit">Register</button>
     </form>
